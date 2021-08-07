@@ -13,7 +13,7 @@ usage: python3 markdown-backup-images.py [-h] inputfile outputfile path
 positional arguments:
   inputfile   markdown file which images should be backed up
   outputfile  filename of new file with replaced image paths
-  path        location of images backup (by default current directory)
+  path        location of images backups
 
 optional arguments:
   -h, --help  show this help message and exit

@@ -36,8 +36,7 @@ if __name__ == '__main__':
                         help='markdown file which images should be backed up')
     parser.add_argument('outputfile', type=str,
                         help='filename of new file with replaced image paths')
-    parser.add_argument('path', type=str,
-                        help="""location of images backup
-                                (by default current directory)""")
+    parser.add_argument('--path', type=str,
+                        help='location of images backup')
     args = parser.parse_args()
     main(args)
